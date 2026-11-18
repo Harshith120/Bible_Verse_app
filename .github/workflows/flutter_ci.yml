@@ -31,7 +31,7 @@ jobs:
         run: flutter pub get
 
       - name: Run code formatting check
-        run: dart format --output=none --set-exit-if-changed lib
+        run: dart format --output=none --set-exit-if-changed 
 
       - name: Run static analysis
         run: flutter analyze
